@@ -4,30 +4,28 @@ body {
 
 header {
     min-height: 80px;
-    border-bottom: 1px solid #00e30f;
+    border-bottom: 1px solid #00e600;
 }
 
 h1 {
     font-size: 24px;
-    color: #9f0f71;
+    color: #00e600;
     text-align: center;
     padding: 20px 10px;
 }
 
 h1 i {
-    color: #f10050;
+    color: #00e600;
 }
-
-
 
 nav {
     background: #20A759;
-    color: #000000;
+    color: #fff;
     padding: 10px;
 }
 
 nav a {
-    color: #f10000;
+    color: #fff;
     text-decoration: none;
     padding: 10px 20px;
 }
@@ -55,7 +53,7 @@ nav a:hover {
 .button {
     padding: 15px 20px;
     background: #bebcbd;
-    color: #ffffff;
+    color: #fff;
     display: inline-block;
     margin: 10px;
     text-decoration: none;
