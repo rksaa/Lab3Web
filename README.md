@@ -23,6 +23,7 @@
 Lab3Web/
 ├── index.html
 ├── style_eksternal.css
+├── screenshoot/ (1.png - 8.png)
 └── README.md
 ```
 
@@ -42,11 +43,11 @@ Isi `<body>`:
 - `<nav>` berisi tiga tautan: **CSS Dasar**, **CSS Eksternal**, **HTML Dasar**.
 - `<div id="intro">` berisi `<h1>Hello World</h1>`, paragraf perkenalan, dan tombol berupa tautan `<a class="button btn-primary">`.
 
-![Kode index.html](screenshoot/01.png)
+![Kode index.html](screenshoot/1.png)
 
 **Hasil (belum diberi CSS):** halaman tampil dengan gaya bawaan browser. Judul berwarna hitam, menu navigasi hanya berupa tautan biru bergaris bawah, dan semua elemen rata kiri.
 
-![Tampilan tanpa CSS](screenshoot/02.png)
+![Tampilan tanpa CSS](screenshoot/2.png)
 
 ---
 
@@ -71,7 +72,7 @@ h1 i {
 }
 ```
 
-![Kode CSS untuk body, header, h1](screenshoot/03.png)
+![Kode CSS untuk body, header, h1](screenshoot/3.png)
 
 **Penjelasan:**
 
@@ -84,7 +85,7 @@ h1 i {
 
 **Hasil:** judul berubah menjadi hijau dan rata tengah, font berganti menjadi sans-serif, serta muncul garis hijau di bawah header.
 
-![Hasil styling header dan h1](screenshoot/04.png)
+![Hasil styling header dan h1](screenshoot/4.png)
 
 ---
 
@@ -107,7 +108,7 @@ nav a:hover {
 }
 ```
 
-![Kode CSS nav](screenshoot/05.png)
+![Kode CSS nav](screenshoot/5.png)
 
 **Penjelasan:**
 
@@ -117,7 +118,7 @@ nav a:hover {
 
 **Hasil:** menu navigasi tampil sebagai bar hijau dengan teks putih.
 
-![Hasil styling nav](screenshoot/06.png)
+![Hasil styling nav](screenshoot/6.png)
 
 ---
 
@@ -150,7 +151,7 @@ nav a:hover {
 }
 ```
 
-![Kode CSS ID dan class selector](screenshoot/07.png)
+![Kode CSS ID dan class selector](screenshoot/7.png)
 
 **Penjelasan:**
 
@@ -169,7 +170,7 @@ Pada HTML, tombol memakai dua class sekaligus: `class="button btn-primary"`.
 
 Setelah semua aturan CSS diterapkan, halaman tampil dengan header hijau, menu navigasi hijau (menu **CSS Eksternal** tampak lebih gelap saat di-*hover*), area `#intro` berlatar biru, dan tombol **Informasi selengkapnya.** berwarna merah.
 
-![Hasil akhir](screenshoot/08.png)
+![Hasil akhir](screenshoot/8.png)
 
 ---
 
