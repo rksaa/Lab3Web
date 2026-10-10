@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh ID dan Class</title>
+    <style>
+        /* CSS Class Selector */
+        .text-paragraf {
+            color: red;
+            font-size: 14px;
+        }
+
+        /* CSS ID Selector */
+        #paragraf-1 {
+            color: green; /* Warna ini yang akan menang dan ditampilkan */
+            font-size: 18px; /* Ukuran ini yang akan menang dan ditampilkan */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Elemen yang memiliki ID dan Class sekaligus -->
+    <p id="paragraf-1" class="text-paragraf">
+        Teks ini akan berwarna hijau dan berukuran 18px karena ID selector lebih diprioritaskan daripada class selector.
+    </p>
+
+</body>
+</html>

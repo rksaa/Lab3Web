@@ -1,33 +1,41 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #f4f7f6; /* Menambah warna background halaman */
+    margin: 0;
 }
 
 header {
     min-height: 80px;
-    border-bottom: 1px solid #00e600;
+    border-bottom: 2px solid #00e600;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Menambah efek bayangan halus */
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 26px; /* Memperbesar sedikit ukuran font */
     color: #00e600;
     text-align: center;
     padding: 20px 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Menambah efek bayangan teks */
 }
 
 h1 i {
-    color: #00e600;
+    color: #00b300;
 }
 
 nav {
     background: #20A759;
     color: #fff;
-    padding: 10px;
+    padding: 12px;
+    text-align: center; /* Menyelaraskan menu navigasi ke tengah */
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
+    border-radius: 4px; /* Membuat sudut tombol navigasi melengkung */
+    transition: background 0.3s ease; /* Menambah efek transisi halus */
 }
 
 nav .active,
@@ -40,25 +48,36 @@ nav a:hover {
     background: #418fb1;
     border: 1px solid #099249;
     min-height: 100px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 8px; /* Membuat sudut kotak intro melengkung */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambah efek bayangan kotak */
 }
 
 #intro h1 {
     text-align: left;
     border: 0;
     color: #fff;
+    text-shadow: none;
 }
 
 /* Class Selector */
 .button {
-    padding: 15px 20px;
+    padding: 12px 24px;
     background: #bebcbd;
     color: #fff;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0;
     text-decoration: none;
+    border-radius: 6px; /* Membuat sudut tombol melengkung */
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .btn-primary {
     background: #E42A42;
+}
+
+.btn-primary:hover {
+    background: #c51d33; /* Menambah efek hover pada tombol utama */
 }
